@@ -4,7 +4,7 @@
   * @void: does not take any parameter
   *
   * prints a string
-  * Return: 0 at the end og the program
+  * Return: 0 at the end of the program
  */
 int main(void)
 {
