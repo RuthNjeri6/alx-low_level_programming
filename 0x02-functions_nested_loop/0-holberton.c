@@ -1,11 +1,4 @@
-/**
-  * _putchar - declaration
-  * @char: takes in a character argument
-  *
-  * Return: an integer retun value
- */
-int _putchar(char);
-
+#include "holberton.h"
 /**
   * main -function the entry point
   * @void: takes no parametors
