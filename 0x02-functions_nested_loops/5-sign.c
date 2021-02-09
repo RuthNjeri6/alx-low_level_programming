@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
   * print_sign - prints +, 0 or -
-  * @c: yakes integer argument
+  * @n: takes integer argument
   *
-  * Return - 0, 1, -1
+  * Return: 0, 1, -1
   */
 int print_sign(int n)
 {
@@ -25,4 +25,4 @@ int print_sign(int n)
 		result = -1;
 	}
 	return (result);
-}	
+}
