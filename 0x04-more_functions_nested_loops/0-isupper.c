@@ -8,7 +8,7 @@ int _isupper(int c)
 {
 	int result;
 
-	if ((c >= 90) && (c <= 65))
+	if ((c >= 'A') && (c <= 'Z'))
 		result = 1;
 	else
 		result = 0;
