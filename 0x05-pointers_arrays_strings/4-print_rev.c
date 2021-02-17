@@ -13,7 +13,7 @@ void print_rev(char *s)
 	tmp = s;
 	length = 0;
 
-	while (*s != 0)
+	while (*s != '\0')
 	{
 		length++;
 		s++;
