@@ -20,6 +20,7 @@ ar -t libname.a
 ranlib libname.a
 ```
 This process can be done when creating the library as follows:  
-```ar -rcs libname.a *.o
+```bash
+ar -rcs libname.a *.o
 ```
 To list the symbols of the library use the program ```nm```.
