@@ -14,7 +14,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	static unsigned int i;
 	static char *s;
 
-	if (separator == 0 || n == 0)
+	if (separator == 0)
 	{
 		va_end(op);
 		return;
