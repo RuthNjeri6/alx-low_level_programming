@@ -14,12 +14,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	static unsigned int i;
 	static char *s;
 
-	if (separator == 0)
-	{
-		va_end(op);
-		return;
-	}
-
 	va_start(op, n);
 	for (i = 0; i < n; i++)
 	{
@@ -27,13 +21,13 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		if (s == 0)
 		{
 			printf("(nil)");
-			if (i != (n - 1))
+			if (i != (n - 1) && separator)
 				printf("%s", separator);
 		}
 		else
 		{
 			printf("%s", s);
-			if (i != (n - 1))
+			if (i != (n - 1) && separator)
 			{
 				printf("%s", separator);
 			}
