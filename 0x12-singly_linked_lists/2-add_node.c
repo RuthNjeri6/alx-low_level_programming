@@ -4,7 +4,7 @@
 #include "lists.h"
 /**
   * _strlen - gets string length
-  * @str - first
+  * @str: first
   *
   * Return: int
   */
